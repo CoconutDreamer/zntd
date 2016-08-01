@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TQc-V0-v81">
+                                <rect key="frame" x="209" y="283" width="182" height="254"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="155" id="1Xn-AC-In6"/>
+                                    <constraint firstAttribute="height" constant="254" id="FwE-un-7RK" userLabel="234"/>
+                                    <constraint firstAttribute="height" constant="210" id="I7z-As-OSb"/>
+                                    <constraint firstAttribute="width" constant="182" id="gJh-N4-x5j"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1Xn-AC-In6"/>
+                                        <exclude reference="I7z-As-OSb"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMM-ar-d36">
+                                <rect key="frame" x="216" y="532" width="169" height="30"/>
+                                <state key="normal" title="点击这里开始种植吧！^_^"/>
+                                <connections>
+                                    <action selector="nextLevel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C43-gQ-rYg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TQc-V0-v81" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AqV-rF-Tax"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MMM-ar-d36" secondAttribute="bottom" constant="38" id="AwI-Ja-KOt"/>
+                            <constraint firstItem="MMM-ar-d36" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="475" id="NxT-v1-02S"/>
+                            <constraint firstItem="TQc-V0-v81" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="263" id="Wxi-EB-g4o"/>
+                            <constraint firstItem="MMM-ar-d36" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tQX-DC-mIG"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="NxT-v1-02S"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="currentFlower" destination="TQc-V0-v81" id="On6-qr-10v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
