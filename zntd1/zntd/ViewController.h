@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "MZTimerLabel.h"
+@interface ViewController : UIViewController<MZTimerLabelDelegate>
 
 
 @end

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		578753191D547D4200A557F4 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 578753141D547D4200A557F4 /* a.png */; };
+		5787531A1D547D4200A557F4 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 578753151D547D4200A557F4 /* b.png */; };
+		5787531B1D547D4200A557F4 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = 578753161D547D4200A557F4 /* c.png */; };
+		5787531C1D547D4200A557F4 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = 578753171D547D4200A557F4 /* d.png */; };
+		5787531D1D547D4200A557F4 /* e.png in Resources */ = {isa = PBXBuildFile; fileRef = 578753181D547D4200A557F4 /* e.png */; };
 		57B26C801D4F387B00BD0ADC /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B26C7F1D4F387B00BD0ADC /* MZTimerLabel.m */; };
 		57B26C831D4F39DE00BD0ADC /* PlantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B26C821D4F39DE00BD0ADC /* PlantViewController.m */; };
 		57E243D71D372B0000977516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E243D61D372B0000977516 /* main.m */; };
@@ -37,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		578753141D547D4200A557F4 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		578753151D547D4200A557F4 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		578753161D547D4200A557F4 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		578753171D547D4200A557F4 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
+		578753181D547D4200A557F4 /* e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e.png; sourceTree = "<group>"; };
 		57B26C7E1D4F387B00BD0ADC /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
 		57B26C7F1D4F387B00BD0ADC /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
 		57B26C811D4F39DE00BD0ADC /* PlantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantViewController.h; sourceTree = "<group>"; };
@@ -118,6 +128,11 @@
 		57E243D41D372B0000977516 /* zntd */ = {
 			isa = PBXGroup;
 			children = (
+				578753141D547D4200A557F4 /* a.png */,
+				578753151D547D4200A557F4 /* b.png */,
+				578753161D547D4200A557F4 /* c.png */,
+				578753171D547D4200A557F4 /* d.png */,
+				578753181D547D4200A557F4 /* e.png */,
 				57B26C7D1D4F386400BD0ADC /* MZTimeLabel */,
 				57E243D81D372B0000977516 /* AppDelegate.h */,
 				57E243D91D372B0000977516 /* AppDelegate.m */,
@@ -262,7 +277,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E243E51D372B0000977516 /* LaunchScreen.storyboard in Resources */,
+				5787531A1D547D4200A557F4 /* b.png in Resources */,
+				578753191D547D4200A557F4 /* a.png in Resources */,
+				5787531B1D547D4200A557F4 /* c.png in Resources */,
 				57E243E21D372B0000977516 /* Assets.xcassets in Resources */,
+				5787531D1D547D4200A557F4 /* e.png in Resources */,
+				5787531C1D547D4200A557F4 /* d.png in Resources */,
 				57E243E01D372B0000977516 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
